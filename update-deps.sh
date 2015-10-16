@@ -3,3 +3,4 @@ git subtree pull --prefix _vendor/src/github.com/smartystreets/assertions https:
 git subtree pull --prefix _vendor/src/github.com/smartystreets/goconvey https://github.com/smartystreets/goconvey master --squash
 git subtree pull --prefix _vendor/src/github.com/go-sql-driver/mysql https://github.com/go-sql-driver/mysql master --squash
 git subtree pull --prefix _vendor/src/github.com/jmoiron/sqlx https://github.com/jmoiron/sqlx master --squash
+git subtree pull --prefix _vendor/src/github.com/labstack/echo https://github.com/labstack/echo master --squash
