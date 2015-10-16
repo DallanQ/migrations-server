@@ -1,3 +1,4 @@
 .idea/
 *.iml
 _vendor/pkg/
+gin-bin
