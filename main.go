@@ -10,6 +10,7 @@ import (
 	"github.com/kelseyhightower/envconfig"
 	"github.com/labstack/echo"
 	mw "github.com/labstack/echo/middleware"
+	"github.com/rs/cors"
 	"regexp"
 	"strconv"
 	"strings"
@@ -52,6 +53,7 @@ func main() {
 
 	e.Use(mw.Logger())
 	e.Use(mw.Recover())
+	e.Use(cors.Default().Handler)
 
 	e.Get("/", func(c *echo.Context) error {
 		return c.String(http.StatusOK, "Ok")
