@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 git subtree pull --prefix _vendor/src/github.com/jtolds/gls https://github.com/jtolds/gls master --squash
 git subtree pull --prefix _vendor/src/github.com/smartystreets/assertions https://github.com/smartystreets/assertions master --squash
 git subtree pull --prefix _vendor/src/github.com/smartystreets/goconvey https://github.com/smartystreets/goconvey master --squash
@@ -12,3 +13,4 @@ git subtree pull --prefix _vendor/src/github.com/bradfitz/http2 https://github.c
 git subtree pull --prefix _vendor/src/github.com/labstack/gommon https://github.com/labstack/gommon master --squash
 git subtree pull --prefix _vendor/src/golang.org/x/net https://github.com/golang/net master --squash
 git subtree pull --prefix _vendor/src/github.com/labstack/echo https://github.com/labstack/echo master --squash
+git subtree pull --prefix _vendor/src/github.com/rs/cors https://github.com/rs/cors master --squash
